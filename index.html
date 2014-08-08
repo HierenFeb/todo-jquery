@@ -1,24 +1,22 @@
 <html>
 	<head>
 		<title>Todo list</title>
+		<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="script.js"></script>
-		<style type="text/css">
-			.done-true {
-				text-decoration: line-through;
-				color: gray;
-			}
-			.unstyle {
-				list-style: none;
-			}
-		</style>
 	</head>
 	<body>
 		<h2 class="title">Todo list</h2>
+		<h5 class="counter"><span class="item-remain"></span> of <span class="item-total"></span> remaining </h5>
 		<div class="wrapper-toto">
-
 		</div>
 
-
+		<div class="form-inline">
+		  <div class="form-group">
+		  	<input type="text" placeholder="Add more task" class="form-control todo-text">
+		  </div>
+		  <button type="" class="btn btn-add-task btn-default">+ Add</button>
+		</div>
 	</body>
 </html>
